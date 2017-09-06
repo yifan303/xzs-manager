@@ -1,0 +1,5 @@
+{
+  "name":"chart",
+  "main":"chart.js",
+  "description":"图表组件"
+}

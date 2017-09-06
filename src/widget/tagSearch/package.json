@@ -1,0 +1,5 @@
+{
+  "name":"tagSearch",
+  "main":"search.js",
+  "description":"商品打标search组件"
+}

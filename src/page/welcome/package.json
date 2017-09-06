@@ -1,0 +1,5 @@
+{
+  "name":"welcome",
+  "main":"welcome.js",
+  "description":"欢迎页"
+}

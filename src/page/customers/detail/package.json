@@ -1,0 +1,5 @@
+{
+  "name":"detail",
+  "main":"detail.js",
+  "description":"用户查询"
+}

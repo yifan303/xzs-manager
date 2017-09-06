@@ -1,0 +1,5 @@
+{
+  "name":"link",
+  "main":"link.js",
+  "description":"link输出组件"
+}

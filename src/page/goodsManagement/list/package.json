@@ -1,0 +1,5 @@
+{
+  "name":"list",
+  "main":"list.js",
+  "description":"销售商品列表"
+}

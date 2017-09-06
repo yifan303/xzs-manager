@@ -1,0 +1,58 @@
+.detail{
+  font-size: 14px;
+}
+.item{
+  display: inline-block;
+  max-width: 200px;
+  white-space: nowrap;
+}
+.btn{
+  margin:20px 0;
+  text-align: center;
+}
+.table{
+  margin-top:10px;
+}
+.red{
+  color:red;
+}
+.print{
+  display: none
+}
+.print table{
+  width:100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+  margin-bottom:0;
+}
+.print table td{
+  border:1px solid #000;
+  padding-left:3px;
+  height:30px;
+}
+.print table thead td{
+  background:gray;
+}
+@media print{
+  .detail{
+    font-size: 12px;
+    display: none;
+  }
+  :global(.ant-col-8){
+    float:none;
+    width:100%;
+  }
+  :global(html body){
+    background-color: #fff;
+    width:100%;
+  }
+  .print{
+    display: block;
+  }
+  @page{
+    margin:6mm 0 0 6mm;
+    padding:0;
+    size: 150mm 210mm;
+  }
+
+}

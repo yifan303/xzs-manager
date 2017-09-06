@@ -1,0 +1,5 @@
+{
+  "name":"list",
+  "desc":"波次单挂起",
+  "main":"list.js"
+}

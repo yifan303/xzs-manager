@@ -1,0 +1,5 @@
+{
+  "name":"search",
+  "main":"search.js",
+  "description":"search组件"
+}

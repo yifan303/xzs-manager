@@ -1,0 +1,16 @@
+{
+  "name":"采购管理",
+  "children":[
+    {
+      "name":"添加采购单",
+      "icon":"&#xe7f9;",
+      "href":"#/purchase/append",
+      "element":"purchase-append"
+    },{
+      "name":"采购单查询",
+      "icon":"&#xe804;",
+      "href":"#/purchase/list",
+      "element":"purchase-list"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name":"商品管理",
+  "children":[
+    {
+      "name":"临期商品处理",
+      "icon":"&#xe7fb;",
+      "href":"#/goodsManagement/handle",
+      "element":"goodsManagement-handle"
+    },{
+      "name":"商品价格维护",
+      "icon":"&#xe7d1;",
+      "href":"#/goodsManagement/pricemaintain",
+      "element":"goodsManagement-pricemaintain"
+    },{
+      "name":"商品打标",
+      "icon":"&#xe752;",
+      "href":"#/goodsManagement/querygoodstags",
+      "element":"goodsManagement-querygoodstags"
+    },{
+      "name":"销售商品列表",
+      "icon":"&#xe7ad;",
+      "href":"#/goodsManagement/list",
+      "element":"goodsManagement-list"
+    },{
+      "name":"商品管理",
+      "icon":"&#xe6e2;",
+      "href":"#/goodsManagement/category",
+      "element":"goodsManagement-category"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+.wrap{
+  width:150mm;
+  margin:0 auto;
+  background-color: #fff;
+  padding:10px;
+  margin-bottom:10px;
+  page-break-after: always;
+}
+.table,.detail{
+  border-spacing: 0;
+  border-collapse: collapse;
+  width:100%;
+}
+.table tr:first-child td{
+  height:1px;
+  line-height: 1px;
+  padding:0;
+  border:none;
+}
+.table  td,.detail td,.detail th{
+  border:1px solid #000;
+  font-size:14px;
+  height:36px;
+  line-height: 18px;
+  vertical-align: middle;
+  padding:5px;
+  width:16.6%;
+}
+.detail {
+  margin-top:5px;
+}
+.detail th{
+  background-color:#eee;
+}
+.detail .sign{
+  width:5%;
+}
+.goods td:nth-child(2){
+  width:40%;
+}
+.goods td:nth-child(3){
+  width:10%;
+}
+.goods td:nth-child(4){
+  width:10%;
+}
+.goods td{
+  text-align: center;
+}
+.btn{
+  text-align:center;
+  margin-top:10px;
+}
+@media print{
+  @page{
+    margin:6mm 0 0 6mm;
+    padding:0;
+    size: 150mm 210mm;
+  }
+}

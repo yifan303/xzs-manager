@@ -1,0 +1,5 @@
+{
+  "name":"scrollPit",
+  "main":"scrollPit.js",
+  "description":"3版标题+横向滑动商品列表"
+}

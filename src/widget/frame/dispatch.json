@@ -1,0 +1,35 @@
+{
+  "name":"配送管理",
+  "children":[
+    {
+      "name":"全部订单",
+      "icon":"&#xe7c6;",
+      "href":"#/dispatch/list",
+      "element":"dispatch-list"
+    },
+    {
+      "name":"待配送订单",
+      "icon":"&#xe755;",
+      "href":"#/dispatch/tobelist",
+      "element":"dispatch-tobelist"
+    },
+    {
+      "name":"配送中订单",
+      "icon":"&#xe65d;",
+      "href":"#/dispatch/beinglist",
+      "element":"dispatch-beinglist"
+    },
+    {
+      "name":"扫描复核",
+      "icon":"&#xe7e9;",
+      "href":"#/dispatch/check",
+      "element":"dispatch-check"
+    },
+    {
+      "name":"波次单挂起",
+      "icon":"&#xe711;",
+      "href":"#/dispatch/handup",
+      "element":"dispatch-handup"
+    }
+  ]
+}

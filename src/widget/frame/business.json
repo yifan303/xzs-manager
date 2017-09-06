@@ -1,0 +1,21 @@
+{
+	"name":"运营管理",
+	"children":[
+		{
+			"name":"运营列表",
+			"icon":"&#xe7f6",
+			"href":"#/business/list",
+			"element":"business-list"
+		},{
+			"name":"投屏管理",
+			"icon":"&#xe72c;",
+			"href":"#/business/screen/list",
+			"element":"business-screen-list"
+		},{
+			"name":"批量赠送优惠券",
+			"icon":"&#xe25c;",
+			"href":"#/business/sendcoupons",
+			"element":"business-sendcoupons"
+		}
+	]
+}

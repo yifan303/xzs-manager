@@ -1,0 +1,26 @@
+{
+	"name":"报表",
+	"children":[
+		{
+			"name":"日统计报表",
+			"icon":"&#xe800;",
+			"href":"#/count/count",
+			"element":"count-count"
+		},{
+			"name":"库存报表",
+			"icon":"&#xe6c0;",
+			"href":"#/count/store",
+			"element":"count-store"
+		},{
+			"name":"用户交易报表",
+			"icon":"&#xe7e6;",
+			"href":"#/count/user",
+			"element":"count-user"
+		},{
+			"name":"充值月度查询",
+			"icon":"&#xe7fe;",
+			"href":"#/count/recharge",
+			"element":"count-recharge"
+		}
+	]
+}

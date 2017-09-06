@@ -1,0 +1,5 @@
+{
+  "name":"edit",
+  "main":"edit.js",
+  "description":"采购单修改"
+}

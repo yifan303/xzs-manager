@@ -1,0 +1,5 @@
+{
+  "name":"ajax",
+  "main":"request.js",
+  "description":"ajax组件"
+}

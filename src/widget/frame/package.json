@@ -1,0 +1,5 @@
+{
+  "name":"frame",
+  "description":"主体框架",
+  "main":"frame.js"
+}

@@ -1,0 +1,5 @@
+{
+  "name":"time",
+  "main":"time.js",
+  "description":"设置时间组件"
+}

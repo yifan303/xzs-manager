@@ -1,0 +1,5 @@
+{	
+	"name":"servicelist",
+	"main":"servicelist.js",
+	"desc":"客服列表"	
+}

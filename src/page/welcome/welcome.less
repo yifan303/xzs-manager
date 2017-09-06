@@ -1,0 +1,28 @@
+@-webkit-keyframes  show {
+  0%{
+    stroke-dashoffset: 1000;
+    fill:#EBEEF2;
+    text-shadow:0 0 0 #EBEEF2;
+  }
+  80%{
+    stroke-dashoffset: 0;
+    fill:#EBEEF2;
+    text-shadow:0 0 0 #EBEEF2;
+  }
+  100%{
+    fill:#333744;
+    text-shadow:0 0 3px #333744;
+  }
+}
+.svg{
+  width:600px;
+  height:250px;
+  display:block;
+  margin:100px auto;
+}
+.svgText{
+  stroke-dasharray: 800;
+  font-size:80px;
+  stroke:#333744;
+  -webkit-animation:show 5s forwards;
+}

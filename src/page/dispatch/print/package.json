@@ -1,0 +1,5 @@
+{
+  "name":"print",
+  "main":"print.js",
+  "description":"打印配送单"
+}

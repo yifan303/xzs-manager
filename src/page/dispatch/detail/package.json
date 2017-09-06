@@ -1,0 +1,5 @@
+{
+  "name":"order-detail",
+  "main":"detail.js",
+  "description":"订单配送详情页"
+}

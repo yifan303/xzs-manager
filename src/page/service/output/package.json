@@ -1,0 +1,5 @@
+{	
+	"name":"output",
+	"main":"output.js",
+	"desc":"出库列表"	
+}

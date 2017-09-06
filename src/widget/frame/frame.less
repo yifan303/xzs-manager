@@ -1,0 +1,184 @@
+/* header */
+@keyframes rot{
+  from {transform: rotate(0deg)}
+  to {transform: rotate(360deg)}
+}
+
+.wrap{
+  padding-top:50px;
+}
+.header{
+  z-index: 102;
+  box-sizing: border-box;
+  position: fixed;
+  margin-top: -50px;
+  width: 100%;
+  clear: both;
+  height: 50px;
+  background: #373d41;
+  font-size: 12px;
+  min-width: 600px;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.35);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,.35);
+  box-shadow: 0 1px 2px rgba(0,0,0,.35);
+  display:flex;
+}
+.logo{
+  flex:0 0 50px;
+  animation: rot 3s linear infinite;
+  text-align:center;
+  line-height: 50px;
+  font-size:20px;
+  color:#fff;
+}
+.brand{
+  flex:0 0 128px;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  border-left:1px solid #2a2f32;
+  border-right:1px solid #2a2f32;
+}
+.use{
+  text-align: right;
+  flex:1 0 0;
+}
+.logout{
+  display: inline-block;
+  vertical-align: middle;
+  min-width:70px;
+  line-height: 50px;
+  height:49px;
+  font-size:14px;
+  color:#fff;
+  text-align:center;
+  border-left:1px solid #2a2f32;
+  cursor:pointer;
+  padding:0 10px;
+}
+.logout:hover{
+  background-color:#2a2f32
+}
+.logoutIcon{
+  margin:0 5px;
+}
+.brumb{
+  line-height: 50px;
+  font-size:13px;
+  color:#fff;
+  margin-left:15px;
+}
+.brumb span{
+  font-size:14px;
+}
+.brumbArrow{
+  margin:0 5px;
+}
+
+/* 左边选择 */
+.left{
+  position:fixed;
+  top:50px;
+  bottom:0;
+  left:0;
+  padding:0;
+  margin:0;
+  height:100%;
+  width:180px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background:#333744;
+  color:#fff;
+  transition:width .2s ease-in-out 0s;
+}
+.leftIcon{
+  width:100%;
+  height:30px;
+  line-height:30px;
+  font-size:14px;
+  color:#fff;
+  text-align:center;
+  background-color:#4A5064;
+  display:block;
+  text-align:center;
+}
+.menu{
+
+}
+.menuHeader{
+  background-color:#42485B;
+  text-align:left;
+  text-indent:20px;
+  font-size:12px;
+  line-height: 30px;
+  height: 30px;
+  transition:background-color .3s ease-in-out 0s;
+  cursor:pointer;
+  white-space: nowrap;
+}
+.menuHeader:hover{
+  background-color:#00C1DE;
+}
+.menuHeader i{
+  font-size:12px;
+  margin-right:20px;
+  vertical-align: middle;
+  transition:transform .1s ease-in-out 0s;
+  transform:rotate(0deg);
+  text-indent:0;
+  display:inline-block;
+}
+.menuBody{
+  overflow:hidden;
+  transition:height .1s ease-in-out 0s;
+}
+.menuItem{
+  text-align:left;
+  text-indent:20px;
+  font-size:12px;
+  line-height: 40px;
+  height: 40px;
+  transition:background-color .3s ease-in-out 0s;
+  cursor: pointer;
+  display:block;
+  color:#fff;
+  text-decoration:none;
+  position:relative;
+  white-space: nowrap;
+}
+.menuItemSelect{
+  background-color:#4A5064;
+}
+.menuItemSelect:after{
+  content:'';
+  border:5px solid transparent;
+  border-right:5px solid #EBEEF2;
+  position:absolute;
+  right:0;
+  top:15px;
+  width:0;
+  height:0;
+}
+.menuItem:hover{
+  background-color:#4A5064;
+}
+.menuItem i{
+  font-size:12px;
+  margin-right:20px;
+  vertical-align: middle;
+}
+
+:global(.expand){
+  width:50px;
+}
+
+/* 内容 */
+.right{
+  margin-left:180px;
+  padding:20px;
+  transition:margin-left .2s ease-in-out 0s;
+}
+:global(.right-expand){
+  margin-left:50px;
+}

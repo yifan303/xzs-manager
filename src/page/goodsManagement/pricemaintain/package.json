@@ -1,0 +1,5 @@
+{
+  "name":"pricemaintain",
+  "main":"pricemaintain.js",
+  "description":"商品价格维护"
+}

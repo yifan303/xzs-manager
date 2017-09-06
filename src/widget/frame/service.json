@@ -1,0 +1,19 @@
+{
+	"name":"客服管理",
+	"children":[{
+		"name":"售后列表",
+		"icon":"&#xe7f6",
+		"href":"#/service/servicelist",
+		"element":"service-servicelist"
+	},{
+		"name":"出库列表",
+		"icon":"&#xe6c2",
+		"href":"#/service/output",
+		"element":"service-output"
+	},{
+		"name":"入库列表",
+		"icon":"&#xe6c0",
+		"href":"#/service/input",
+		"element":"service-input"
+	}]
+}

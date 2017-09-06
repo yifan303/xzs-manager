@@ -1,0 +1,5 @@
+{
+  "name":"selectSupplier",
+  "main":"select.js",
+  "description":"选择供应商"
+}

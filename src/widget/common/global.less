@@ -1,0 +1,91 @@
+:global(html body){
+  padding:0;
+  margin:0;
+  font-size:12px;
+  background-color: #EBEEF2;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.02em;
+  font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti, "Microsoft YaHei";
+}
+:global(.smoth){
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.02em;
+}
+
+/* 修改antd部分样式 */
+:global(table){
+  background-color:#fff;
+  font-size:14px;
+}
+:global(.ant-table-tbody .min-row td){
+  padding:6px;
+}
+:global(.w-good-tags){
+  position:absolute;
+  z-index:2;
+  top:.2rem;
+  left:.2rem;
+  font-size:.3rem;
+  height:.6rem;
+  line-height:.6rem;
+  background-color:#f85218;
+  color:#fff;
+  border-radius:.4rem;
+  text-align:center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding:0 .2rem;
+  white-space: nowrap;
+  max-width: 3rem;
+}
+:global(.w-good-empty){
+  position:absolute;
+  z-index:2;
+  top:.2rem;
+  left:.2rem;
+  font-size:.3rem;
+  height:.6rem;
+  line-height:.6rem;
+  background-color:rgba(0,0,0,.5);
+  color:#fff;
+  border-radius:.4rem;
+  text-align:center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding:0 .2rem;
+  white-space: nowrap;
+  max-width: 3rem;
+}
+:global(body .ant-input-affix-wrapper .ant-input){
+  min-height:auto;
+}
+@media print{
+  :global(body .ant-message-notice){
+    display: none;
+  }
+  :global(body .print){
+    display:none;
+  }
+  :global(.content){
+    width:100%;
+    position:relative;
+    left:-200px;
+    top:-70px;
+  }
+  :global(.right-expand.content){
+    left:-70px;
+  }
+  :global(body .ant-table-tbody > tr > td),:global(body .ant-table-thead > tr > th){
+    padding:5px;
+    border:1px solid #e9e9e9;
+  }
+  :global(body .ant-table table){
+    font-size:12px;
+    border-collapse: collapse;
+  }
+  :global(#content){
+    padding:0
+  }
+}

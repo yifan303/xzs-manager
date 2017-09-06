@@ -1,0 +1,5 @@
+{
+  "name":"selectGood",
+  "main":"selectGood.js",
+  "description":"选择商品"
+}

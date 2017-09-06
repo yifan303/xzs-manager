@@ -1,0 +1,5 @@
+{
+  "name":"common",
+  "main":"common.js",
+  "description":"环境变量"
+}

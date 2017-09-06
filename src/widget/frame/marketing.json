@@ -1,0 +1,16 @@
+{
+	"name":"营销管理",
+	"children":[
+		{
+			"name":"营销活动设置",
+			"icon":"&#xe676",
+			"href":"#/marketing/marketingset",
+			"element":"marketing-marketingset"
+		},{
+			"name":"优惠券设置",
+			"icon":"&#xe7ac",
+			"href":"#/marketing/coupons",
+			"element":"marketing-coupons"
+		}
+	]
+}

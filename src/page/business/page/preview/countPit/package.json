@@ -1,0 +1,5 @@
+{
+  "name":"countPit",
+  "main":"countPit.js",
+  "description":"3版抢购商品楼层"
+}

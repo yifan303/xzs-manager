@@ -1,0 +1,5 @@
+{
+  "name":"marquee",
+  "main":"marquee.js",
+  "description":"文字跑马灯"
+}

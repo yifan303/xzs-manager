@@ -1,0 +1,5 @@
+{
+  "name":"check",
+  "main":"check.js",
+  "description":"扫描复核"
+}

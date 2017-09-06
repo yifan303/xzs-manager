@@ -1,0 +1,5 @@
+{
+	"main":"sendcoupons.js",
+	"name":"sendcoupons",
+	"desc":"优惠券发放"
+}

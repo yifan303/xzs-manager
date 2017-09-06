@@ -1,0 +1,11 @@
+{
+  "name":"客户管理",
+  "children":[
+    {
+      "name":"客户查询",
+      "icon":"&#xe7e6;",
+      "href":"#/customers/query",
+      "element":"customers-query"
+    }
+  ]
+}

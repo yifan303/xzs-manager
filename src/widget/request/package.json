@@ -1,0 +1,5 @@
+{
+  "name":"request",
+  "main":"request.js",
+  "description":"ajax工具"
+}

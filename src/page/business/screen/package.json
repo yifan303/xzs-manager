@@ -1,0 +1,5 @@
+{
+  "name":"screen",
+  "main":"screen.js",
+  "description":"投屏管理"
+}
