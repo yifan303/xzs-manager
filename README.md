@@ -1,5 +1,3 @@
-## 鲜在时后台
-
 ### 使用的库
 
 - [react](https://facebook.github.io/react/)
